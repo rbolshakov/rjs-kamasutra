@@ -1,0 +1,19 @@
+.nav {
+  grid-area: n;
+  background-color: lightyellow;
+  text-decoration: none;
+}
+
+.item a {
+  color: lightcoral;
+  text-decoration: none;
+  transition: 0.35s;
+  font-size: 25px;
+  white-space: nowrap;
+  transform: scale(1.2);
+}
+
+.item a:hover {
+  color: rgb(90, 19, 19);
+  transform: scale(1.2);
+}
