@@ -1,19 +1,25 @@
 .nav {
-  grid-area: n;
-  background-color: lightyellow;
-  text-decoration: none;
+    grid-area: n;
+    background-color: lightyellow;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+.item a.activeLink {
+    color: gold;
 }
 
 .item a {
-  color: lightcoral;
-  text-decoration: none;
-  transition: 0.35s;
-  font-size: 25px;
-  white-space: nowrap;
-  transform: scale(1.2);
+    color: lightcoral;
+    text-decoration: none;
+    transition: 0.35s;
+    font-size: 25px;
+    white-space: nowrap;
+    transform: scale(1.2);
 }
 
 .item a:hover {
-  color: rgb(90, 19, 19);
-  transform: scale(1.2);
+    color: rgb(89, 18, 18);
+    transform: scale(1.2);
 }
